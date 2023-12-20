@@ -1,0 +1,82 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main,
+.bloks,
+.lights,
+.traffic-lights{
+    display: flex;
+    gap: 10px;
+}
+
+.main,
+.traffic-lights{
+    margin: 20px auto ;
+    background-color:bisque;
+    border-radius: 5px;
+}
+
+.main,
+.lights,
+.traffic-lights{
+    padding: 10px;
+}
+
+.color-block,
+#l2,#l3{
+    background-color: gray;
+}
+
+.main{
+    flex-direction: column;
+    width: 70%;
+   
+}
+.main .bloks{
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.main > button{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.color-block{
+    height: 30px;
+    width: 50px;
+}
+
+.lights
+{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+#l1,#l2,#l3{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#l1{
+    background-color: red;
+}
+
+.traffic-lights{
+    width: 300px;
+}
+
+.change{
+    border-width: 0px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
